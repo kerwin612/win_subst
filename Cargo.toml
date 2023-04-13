@@ -1,0 +1,16 @@
+[package]
+name = "win_subst"
+version = "0.0.3"
+authors = ["kerwin612 <kerwin612@qq.com>"]
+description = "A tool library, the functions refer to the windows command subst."
+repository = "https://github.com/kerwin612/win_subst"
+keywords = ["windows", "subst"]
+license-file = "LICENSE"
+readme = "README.md"
+
+[dependencies.windows]
+version = "0.48.0"
+features = [
+    "Win32_Foundation",
+    "Win32_Storage_FileSystem",
+]
